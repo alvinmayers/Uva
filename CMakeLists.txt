@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.0)
 
 cmake_policy(VERSION 2.8.8)
 
-add_definitions(-std=c++11 -Wall -Werror)
+add_definitions(-std=c++11 -g -Wall)
 
 PROJECT(uva-solutions)
 
@@ -61,3 +61,19 @@ add_executable(272_Tex-Quotes  ${v2}/272_Tex-Quotes)
 add_executable(573_The-Snail ${v5}/573_The-Snail)
 add_executable(621_Secret-Research ${v6}/621_Secret-Research.cpp)
 add_executable(1124_Celebrity-Jeopardy ${v11}/1124_Celebrity-Jeopardy.cpp)
+add_executable(10300_Ecological-Premium ${v103}/10300_Ecological-Premium.cpp)
+add_executable(11044_Searching-for-Nessy ${v110}/11044_Searching-for-Nessy.cpp)
+add_executable(11172_Relational-Operator ${v111}/11172_Relational-Operator.cpp)
+add_executable(11364_Parking ${v113}/11364_Parking.cpp)
+add_executable(11498_Division-of-Nlogonia ${v114}/11498_Division-of-Nlogonia.cpp)
+add_executable(11547_Automatic-Answer ${v115}/11547_Automatic-Answer.cpp)
+add_executable(11559_Event-Planning ${v115}/11559_Event-Planning.cpp)
+add_executable(11727_Cost-Cutting ${v117}/11727_Cost-Cutting.cpp)
+add_executable(11799_Horror-Dash ${v117}/11799_Horror-Dash.cpp)
+add_executable(12250_Language-Detection ${v122}/12250_Language-Detection.cpp)
+add_executable(12279_Emoogle-Balance ${v122}/12279_Emoogle-Balance.cpp)
+add_executable(12289_One-Two-Three ${v122}/12289_One-Two-Three.cpp)
+add_executable(12372_Packing-for-Holiday ${v123}/12372_Packing-for-Holiday.cpp)
+add_executable(12403_Save-Setu ${v124}/12403_Save-Setu.cpp)
+add_executable(12577_Hajj-E-Akbar ${v125}/12577_Hajj-E-Akbar.cpp)
+
