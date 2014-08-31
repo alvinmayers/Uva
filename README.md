@@ -13,8 +13,5 @@ mkdir build && cmake .. && make <br>
 
 ##run solution w/ input
 cd uva-solutions/build/ <br> 
-for problem set volume --> Let psv= vol_xx_xxxx_xxxx <br>
-for contest set volume --> Let csv= vol_xxx_xxxxx_xxxxx <br>
-replace $(var)=(psv or csv) with actual corresponding directory<br>
-./\<filename> < ../sample_input/$(var)/\<filename.cpp> <br>
+./\<executable> < /path_to/\<input_file> <br>
 
