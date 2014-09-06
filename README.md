@@ -1,5 +1,3 @@
-#uva-solutions
-
 ## uva statistics
 ```
 http://uhunt.felix-halim.net/id/593482 
