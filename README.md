@@ -1,17 +1,24 @@
 #uva-solutions
 
 ## uva statistics
-http://uhunt.felix-halim.net/id/593482 <br>
+```
+http://uhunt.felix-halim.net/id/593482 
+```
 
 ##requirements
-gcc-c++ >=4.7 <br>
-CMake >= 3.0 <br>
+```
+gcc-c++ >=4.7 
+CMake >= 3.0 
+```
 
 ##compile
-cd uva-solutions <br>
-mkdir build && cmake .. && make <br>
+```
+cd uva-solutions
+mkdir build && cmake .. && make 
+```
 
 ##run solution w/ input
-cd uva-solutions/build/ <br> 
-./\<executable> < /path_to/\<input_file> <br>
-
+```
+cd uva-solutions/build
+./executable < /path_to/input_file
+```
