@@ -4,7 +4,7 @@
 
 /*
  * @problem uva-11498 DIVISION OF NLOGONIA
- * @author Alvin Dean Jr
+ * @author Alvin Mayers
  * @run_time 0.019 sec
  */
 
