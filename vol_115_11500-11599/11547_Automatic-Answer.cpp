@@ -3,7 +3,7 @@
 
 /*
  * @problem uva-11547 AUTOMATIC ANSWER
- * @author Alvin Dean Jr.
+ * @author Alvin Mayers
  * @run_time 0.016 sec
  */
 
