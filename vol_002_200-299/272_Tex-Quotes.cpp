@@ -2,7 +2,7 @@
 
 /**
  * @problem uva-272 TEX QUOTES
- * @author Alvin Dean Jr.
+ * @author Alvin Mayers
  * @run_time 0.016 sec
  */
 
