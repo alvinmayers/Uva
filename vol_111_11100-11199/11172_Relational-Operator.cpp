@@ -3,7 +3,7 @@
 
 /*
  * @problem uva-11172 RELATIONAL OPERATOR
- * @author Alvin Dean Jr.
+ * @author Alvin Mayers
  * @run_time 0.015 sec
  */
 
