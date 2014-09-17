@@ -4,7 +4,7 @@
 
 /*
  * @problem uva-573 THE SNAIL
- * @author Alvin Dean Jr
+ * @author Alvin Mayers
  * @run_time 0.018 sec
  */
 
