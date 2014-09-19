@@ -4,7 +4,7 @@
 
 /*
  * @problem uva-11364 PARKING
- * @author Alvin Dean Jr.
+ * @author Alvin Mayers
  * @run_time 0.015 sec
  */
 

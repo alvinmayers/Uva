@@ -2,7 +2,7 @@
 
 /*
  * @problem uva-1124  CELEBRITY JEOPARDY
- * @author Alvin Dean Jr.
+ * @author Alvin Mayers
  * @run_time 0.019 sec
  */
 

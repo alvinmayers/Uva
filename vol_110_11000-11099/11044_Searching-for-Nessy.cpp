@@ -2,7 +2,7 @@
 
 /*
  * @problem uva-11044 SEARCHING FOR NESSY
- * @author Alvin Dean Jr.
+ * @author Alvin Mayers
  * @run_time 0.016 sec
  */
 
