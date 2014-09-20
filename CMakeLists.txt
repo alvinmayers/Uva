@@ -84,3 +84,4 @@ add_executable(11942_Lumberjack-Sequencing ${v119}/11942_Lumberjack-Sequencing.c
 add_executable(12015_Google-is-Feeling-Lucky ${v120}/12015_Google-is-Feeling-Lucky.cpp)
 add_executable(10324_Zeros_and_Ones ${v103}/10324_Zeros_and_Ones.cpp)
 add_executable(10424_Love-Calculator ${v104}/10424_Love-Calculator.cpp)
+add_executable(10919_Prerequisites? ${v109}/10919_Prerequisites?.cpp)
