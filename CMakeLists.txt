@@ -88,3 +88,5 @@ add_executable(10919_Prerequisites? ${v109}/10919_Prerequisites?.cpp)
 add_executable(11586_Train-Tracks ${v115}/11586_Train-Tracks.cpp)
 add_executable(11661_Burger-Time? ${v116}/11661_Burger-Time?.cpp)
 add_executable(462_Bridge-Hand-Evaluator ${v4}/462_Bridge-Hand-Evaluator.cpp)
+add_executable(10646_What-is-the-Card? ${v10}/10646_What-is-the-Card?.cpp)
+
