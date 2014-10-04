@@ -1,39 +1,42 @@
 #include <algorithm>
-#include <map>
 #include <iterator>
 #include <iostream>
 #include <stdio.h>
 #include <set>
 #include <utility>
 
+/*
+ * @problem uva-156 ANANAGRAMS
+ * @author Alvin Mayers
+ * @run_time 0.019 sec
+ */
+
 int main()
 {
 	std::ios::sync_with_stdio(false);
-	std::vector<std::string> words;
+	std::vector<std::string> words,norm;
 	std::istream_iterator<std::string> in(std::cin),eos;
-	std::map<std::string,std::string> nmap;
-	std::transform(in,eos,std::inserter(nmap,begin(nmap)),[&](std::string s){
-		std::string ns=s;
-		std::transform(begin(ns),end(ns),begin(ns),::towlower);
-		return std::make_pair(ns,s);
+	std::copy(in,eos,std::back_inserter(words));
+	std::transform(begin(words),end(words),std::back_inserter(norm),[&](std::string s){
+		std::transform(begin(s),end(s),begin(s),::tolower);
+		std::sort(begin(s),end(s));
+		return s;
 	});
-	//for(auto& p : nmap) printf("%s\n",p.first.c_str());
-	
-	for(auto&p : nmap){
-		std::string temp=p.first;
-		bool dflag{false};
-		while (std::next_permutation(begin(temp),end(temp))) {
-			if(nmap.find(temp) != end(nmap)){
-				nmap.erase(temp);
-				dflag=true;
-			}
-		}
-		if(dflag) nmap.erase(p.first);
-	}
+	std::set<int> rm_node;
 	std::set<std::string> output;
-	std::transform(begin(nmap),end(nmap),std::inserter(output,begin(output)),
-	[&](std::pair<std::string,std::string> p){return p.second;});
-	
+
+	for (auto i = 0u; i != norm.size(); ++i)
+	{
+		std::vector<int> rm_index;
+		int count=std::count_if(begin(norm),end(norm),[&](std::string s){
+			if(s == norm[i]){ rm_index.push_back(i); return true;} 
+			return false;
+		});
+		if(count > 1) std::copy(begin(rm_index),end(rm_index),std::inserter(rm_node,begin(rm_node)));
+	}
+	for (auto i = 0u; i != words.size(); ++i)
+		if(rm_node.find(i) == end(rm_node)) output.insert(words[i]);
+
 	output.erase(begin(output));
 	std::copy(begin(output),end(output),std::ostream_iterator<std::string>(std::cout,"\n"));
 }
