@@ -2,7 +2,22 @@ cmake_minimum_required(VERSION 3.0)
 
 cmake_policy(VERSION 2.8.8)
 
-add_definitions(-std=c++11 -g -Wall)
+
+SET (CMAKE_C_COMPILER             "/usr/bin/clang")
+SET (CMAKE_C_FLAGS                "-std=c99")
+SET (CMAKE_C_FLAGS_DEBUG          "-g")
+SET (CMAKE_C_FLAGS_MINSIZEREL     "-Os -DNDEBUG")
+SET (CMAKE_C_FLAGS_RELEASE        "-O4 -DNDEBUG")
+SET (CMAKE_C_FLAGS_RELWITHDEBINFO "-O2 -g")
+
+SET (CMAKE_CXX_COMPILER             "/usr/bin/clang++")
+SET (CMAKE_CXX_FLAGS                "-std=c++11 -g")
+SET (CMAKE_CXX_FLAGS_DEBUG          "-g")
+SET (CMAKE_CXX_FLAGS_MINSIZEREL     "-Os -DNDEBUG")
+SET (CMAKE_CXX_FLAGS_RELEASE        "-O4 -DNDEBUG")
+SET (CMAKE_CXX_FLAGS_RELWITHDEBINFO "-O2 -g")
+
+#add_definitions(-std=c++11 -g -Wall)
 
 PROJECT(uva-solutions)
 
@@ -90,4 +105,4 @@ add_executable(11661_Burger-Time? ${v116}/11661_Burger-Time?.cpp)
 add_executable(462_Bridge-Hand-Evaluator ${v4}/462_Bridge-Hand-Evaluator.cpp)
 add_executable(10646_What-is-the-Card? ${v10}/10646_What-is-the-Card?.cpp)
 add_executable(401_Palindromes ${v4}/401_Palindromes.cpp)
-
+add_executable(156_Ananagrams  ${v1}/156_Ananagrams.cpp)
