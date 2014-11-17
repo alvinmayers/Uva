@@ -17,7 +17,7 @@ SET (CMAKE_CXX_FLAGS_MINSIZEREL     "-Os -DNDEBUG")
 SET (CMAKE_CXX_FLAGS_RELEASE        "-O4 -DNDEBUG")
 SET (CMAKE_CXX_FLAGS_RELWITHDEBINFO "-O2 -g")
 
-#add_definitions(-std=c++11 -g -Wall)
+add_definitions(-g -Wall -O3 -std=c++11 )
 
 PROJECT(uva-solutions)
 
@@ -110,3 +110,4 @@ add_executable(230_Borrowers   ${v2}/230_Borrowers.cpp)
 add_executable(394_Mapmaker ${v3}/394_Mapmaker.cpp)
 add_executable(10038_Jolly-Jumpers ${v100}/10038_Jolly-Jumpers.cpp)
 add_executable(102_Ecological-Bin-Packing ${v1}/102_Ecological-Bin-Packing.cpp)
+add_executable(256_Quirksome-Squares ${v2}/256_Quirksome-Squares.cpp)
