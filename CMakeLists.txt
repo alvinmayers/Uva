@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.0)
+cmake_minimum_required(VERSION 2.8)
 
 cmake_policy(VERSION 2.8.8)
 
@@ -111,3 +111,7 @@ add_executable(394_Mapmaker ${v3}/394_Mapmaker.cpp)
 add_executable(10038_Jolly-Jumpers ${v100}/10038_Jolly-Jumpers.cpp)
 add_executable(102_Ecological-Bin-Packing ${v1}/102_Ecological-Bin-Packing.cpp)
 add_executable(256_Quirksome-Squares ${v2}/256_Quirksome-Squares.cpp)
+add_executable(100_3n+1 ${v1}/100_3n+1.cpp)
+add_executable(11991_easy_problem_from_RL ${v119}/11991_easy_problem_from_RL.cpp)
+add_executable(11340_Newspaper ${v113}/11340_Newspaper.cpp)
+add_executable(11926_multitasking ${v119}/11926_multitasking.cpp)

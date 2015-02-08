@@ -44,7 +44,6 @@ inline int move_colors(std::vector<std::string> colors, std::vector<int>& data_s
 		}
 	}return moves;
 }
-
 int main()
 {
 	std::string line; const auto vlp=9;
