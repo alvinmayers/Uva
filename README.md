@@ -1,8 +1,3 @@
-## uva statistics
-
-http://uhunt.felix-halim.net/id/614193 
-
-
 ##requirements
 ```
 gcc-c++ >=4.7 
